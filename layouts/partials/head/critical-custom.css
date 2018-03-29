@@ -1,1 +1,19 @@
-
+/* override theme defaults */
+.muted {
+  color: rgba(255, 255, 255, 0.5);
+}
+/* custom styles */
+figure {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+figure img {
+  max-width: 80%;
+}
+figure a {
+  border-bottom: none !important;
+}
+figure a:hover {
+  background-color: inherit !important;
+}

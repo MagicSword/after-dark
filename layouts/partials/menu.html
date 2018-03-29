@@ -5,4 +5,8 @@
       <a itemprop="url" class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }}active{{end}}" href="{{ .URL }}"><span itemprop="name">{{ .Name }}</span></a>
     {{ end }}
   </nav>
+    <link rel="stylesheet" href="/css/monokai.css">
+    <script src="/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
 {{ end }}
